@@ -1,7 +1,7 @@
 function Home(){
     return(
         <>
-                  <section className="hero">
+          <section className="hero">
             <div>
               <div className="eyebrow">Frontend developer</div>
 

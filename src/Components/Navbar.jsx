@@ -29,7 +29,7 @@ function Navbar(){
     return(
         <>
         <nav className="nav">
-          <a onClick={() => {goToSection("home", "/"); handleClick();}} className="logo" aria-label="Alex Morgan home">
+          <a onClick={() => {goToSection("home", "/");}} className="logo" aria-label="Alex Morgan home">
             <span className="logo-mark">&lt;/&gt;</span>
             Arthi Margam
           </a>
@@ -40,13 +40,13 @@ function Navbar(){
             id="navLinks"
           >
             {/* CHANGED: Added onClick */}
-            <li onClick={() => {goToSection("project", "/project"); handleClick();}}>Project
+            <li onClick={() => {goToSection("project", "/project"); handleLinkClick();}}>Project
         </li>
 
-        <li onClick={() => {goToSection("about", "/about"); handleClick();}}>About me
+        <li onClick={() => {goToSection("about", "/about"); handleLinkClick();}}>About me
         </li>
 
-        <li onClick={() => {goToSection("contact", "/contact"); handleClick();}}>Let's talk
+        <li onClick={() => {goToSection("contact", "/contact"); handleLinkClick();}}>Let's talk
         </li>
           </ul>
 
